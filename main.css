@@ -1,0 +1,48 @@
+body {
+  background-color: #262626;
+  color: white;
+}
+
+.container {
+  width: 90%;
+  margin: 10px auto;
+}
+
+.portfolio-menu {
+  text-align: center;
+}
+
+.portfolio-menu ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 20px 0px;
+  border: 1px solid red;
+  cursor: pointer;
+  transition: 0.5s ease;
+  padding: 1rem 1.6rem;
+}
+
+.portfolio-menu ul li:hover {
+  background-color: red;
+  color: white;
+}
+
+.portfolio-menu .active {
+  background: red;
+}
+
+.portfolio-item {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item .item {
+  width: 250px;
+  height: 250px;
+}
+
+.portfolio-item .item img {
+  width: 100%;
+  height: 100%;
+}
